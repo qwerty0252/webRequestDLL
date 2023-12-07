@@ -21,10 +21,8 @@
     int WebRequestGet();
     int WebRequestPost(float a, float b, float c);
 #import
-<pre>
 
 ## Make web request
-<pre>
 float post_request = WebRequestPost(2.0435, 1.0231, 5.0422)
 float get_request = WebRequestGet()
 <pre>
