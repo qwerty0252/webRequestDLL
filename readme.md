@@ -16,14 +16,17 @@
 
 ### Import DLL
 
-> #import "webRequest.dll"
-> int WebRequestGet();
-> int WebRequestPost(float a, float b, float c);
-> #import
+<pre>
+#import "webRequest.dll"
+    int WebRequestGet();
+    int WebRequestPost(float a, float b, float c);
+#import
+<pre>
 
 ## Make web request
-
-> float post_request = WebRequestPost(2.0435, 1.0231, 5.0422)
-> float get_request = WebRequestGet()
+<pre>
+float post_request = WebRequestPost(2.0435, 1.0231, 5.0422)
+float get_request = WebRequestGet()
+<pre>
 
 ## In this DLL request urls are hard coded. You can check it out and make updates to the code.
